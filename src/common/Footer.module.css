@@ -1,0 +1,31 @@
+.container{
+    background: #1C1D28;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 21.75px */
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.text{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%; /* 22.2px */
+    letter-spacing: 0.24px;
+}
+
+.socialnet{
+    display: flex;
+    justify-content: space-between;
+}

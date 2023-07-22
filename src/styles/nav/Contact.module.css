@@ -1,0 +1,52 @@
+.title{
+    color: #F3F3F3;
+    font-family: Montserrat;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 145%; /* 290px */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.title:hover{
+    color: #FF5F68;
+}
+
+.content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: #434343;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%; /* 27.75px */
+    letter-spacing: 0.3px;
+}
+
+.contact{
+    color: #434343;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 29px */
+    letter-spacing: 0.4px;
+}
+
+.socialnet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img:hover{
+    color:#FF5C66;
+    cursor: pointer;
+}

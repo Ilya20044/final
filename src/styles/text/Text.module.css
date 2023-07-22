@@ -1,0 +1,37 @@
+.title{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 145%; /* 21.75px */
+    letter-spacing: 0.75px;
+}
+
+.big{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 43.5px */
+    letter-spacing: 0.6px;
+}
+
+.small{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%; /* 27.75px */
+    letter-spacing: 0.3px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+}

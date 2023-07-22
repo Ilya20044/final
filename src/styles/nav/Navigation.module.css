@@ -1,0 +1,38 @@
+.nav{
+    display: flex;
+    align-items: center;
+
+}
+
+.link{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.26px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    padding: 12px 25px;
+    background: #5551F7;
+    color:white;
+    cursor: pointer;
+}
+
+.number{
+    padding: 45px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}

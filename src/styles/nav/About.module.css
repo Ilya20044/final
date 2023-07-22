@@ -1,0 +1,130 @@
+.bigTitle{
+    color: #F3F3F3;
+    font-family: Montserrat;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95%; /* 190px */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.bigTitle:hover{
+    color: #FF5F68;
+}
+
+.textTitle{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 43.5px */
+    letter-spacing: 0.6px;
+}
+
+.text{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%; /* 27.75px */
+    letter-spacing: 0.3px;
+}
+
+/* .container{
+    padding-left: 10%;
+    padding-right: 10%;
+} */
+
+.numder{
+    color: #FF5F68;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 21.75px */
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.blockTitle{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 43.5px */
+    letter-spacing: 0.6px;
+}
+
+.blockText{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%; /* 27.75px */
+    letter-spacing: 0.3px;
+}
+
+.block{
+    max-width: 235px;
+    padding-top: 80px;
+}
+
+.textBlock{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.map{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.blockContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.geoTitle{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 43.5px */
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.geoNumber{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 43.5px */
+    letter-spacing: 0.6px;  
+}
+
+.numberText{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%; /* 27.75px */
+    letter-spacing: 0.3px;
+}
+
+.geoText{
+    display: flex;
+    justify-content: space-around;
+}
+

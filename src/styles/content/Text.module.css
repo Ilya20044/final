@@ -1,0 +1,27 @@
+.title{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 145%;
+    letter-spacing: 0.75px;
+}
+
+.main{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; 
+    letter-spacing: 0.6px;
+}
+
+.buttom{
+    padding: 12px 25px;
+    background:white;
+    color:#5551F7;
+    border:1px solid #5551F7;
+    cursor: pointer;
+}

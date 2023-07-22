@@ -1,0 +1,189 @@
+.title{
+    color: #F3F3F3;
+    font-family: Montserrat;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 145%; /* 290px */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title:hover{
+    color: #FF5F68;
+}
+
+.blockTitle{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    letter-spacing: 0.6px;
+    padding: 0;
+    margin: 0;
+}
+
+.text{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%; /* 27.75px */
+    letter-spacing: 0.3px;
+    padding: 0%;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+
+.buttom{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 21.75px */
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    padding-bottom: 55px;
+}
+
+.buttom:hover{
+    color:#FF5C66
+}
+
+.block{
+    max-width: 350px;
+    max-height: 370px;
+    border:2px solid #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.block:hover{
+    border:2px solid #FF5C66;
+}
+
+.buttomImg{
+    display: flex;
+    align-items: flex-end;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.for{
+    color: #E4E4E4;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 21.75px */
+    letter-spacing: 0.3px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.number{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 43.5px */
+    letter-spacing: 0.6px;
+    padding: 0;
+    margin: 0;
+}
+
+.priceTite{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 21.75px */
+    letter-spacing: 0.3px;
+}
+
+.priceButtom{
+    color: #5551F7;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.26px;
+    cursor: pointer;
+    padding: 13px 55px;
+    border:1px solid #5551F7;
+}
+
+.priceButtom:hover{
+    color:white;
+    background: #5551F7;
+}
+
+.outline{
+    width: 306px;
+    outline: 1px solid #E4E4E4;
+    margin: 20px;
+}
+
+.mainTitle{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 43.5px */
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.prices{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricesBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E4E4E4;
+    max-width: 370px;
+}
+
+.pricesBlock:hover{
+    border: 1px solid #5551F7;
+}
+
+.point{
+    color: #1C1D28;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%; /* 27.75px */
+    letter-spacing: 0.3px;
+}
