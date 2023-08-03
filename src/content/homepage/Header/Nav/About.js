@@ -3,9 +3,13 @@ import map from "../../../../images/map.png"
 import { Form } from "../../../../common/Form"
 import { Footer } from "../../../../common/Footer"
 
+// export const about=()=> {
+//     let block = document.getElementById('about').style.display='none' 
+//  }
+
 export const About=()=>{
     return(
-        <div className={styles.container}>
+        <div className={styles.container} id='about'>
             <p className={styles.bigTitle}>wha</p>
             <p className={styles.bigTitle}>les</p>
             <div className={styles.textBlock}>

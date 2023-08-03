@@ -35,3 +35,17 @@
     padding-right: 10%;
     justify-content: center;
 }
+
+@media(max-width:770px){
+    .title{
+        font-size: 10px;
+    }
+
+    .big{
+        font-size: 20px;
+    }
+
+    .small{
+        font-size: 15px;
+    }
+}

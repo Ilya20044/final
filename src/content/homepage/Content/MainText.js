@@ -1,6 +1,6 @@
-import styles from "../../../styles/text/Text.module.css"
+import styles from "../../../styles/content/MainText.module.css"
 
-export const Text=()=>{
+export const MainText=()=>{
     return(
         <div className={styles.container}>
             <p className={styles.title}>О нас</p>

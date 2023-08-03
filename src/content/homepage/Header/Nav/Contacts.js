@@ -7,12 +7,14 @@ import { Form } from "../../../../common/Form"
 import { Footer } from "../../../../common/Footer"
 
 
+
+
 export const Contacts=()=>{
     return(
-        <div>
+        <div id='contact' className={styles.container}>
             <p className={styles.title}>Hello</p>
             <div className={styles.content}>
-                <img src={dog}/>
+                <img src={dog} className={styles.dog}/>
                 <div className={styles.contacts}>
                     <p className={styles.text}>телефон</p>
                     <p className={styles.contact}>+38 (097) 757 51 51</p>

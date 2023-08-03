@@ -75,3 +75,34 @@
 .form{
     padding-top: 50px;
 }
+
+@media(max-width:770px){
+    .img{
+        display: none;
+    }
+
+    .title{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:440px){
+    .inputBlock{
+        display: flex;
+        flex-direction: column;
+    }
+}

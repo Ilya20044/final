@@ -7,7 +7,7 @@ import whatsap from "../images/whatsap.svg"
 export const Footer=()=>{
     return(
         <div className={styles.container}>
-             <img src={logo}/>
+            <img src={logo} className={styles.logo}/>
              <div className={styles.brifs}>
                 <p className={styles.title}>Брифы</p>
                 <p className={styles.text}>Бриф на разработку веб дизайна</p>

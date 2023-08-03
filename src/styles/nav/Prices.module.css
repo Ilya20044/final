@@ -187,3 +187,22 @@
     line-height: 185%; /* 27.75px */
     letter-spacing: 0.3px;
 }
+
+@media(max-width:770px){
+    .title{
+        font-size: 140px;
+    }
+
+    .prices{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:440px){
+    .title{
+        font-size: 50px;
+    }
+}

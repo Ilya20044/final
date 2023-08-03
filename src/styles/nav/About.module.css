@@ -92,6 +92,13 @@
     justify-content: space-around;
 }
 
+.button{
+    padding: 12px 25px;
+    background: #5551F7;
+    color:white;
+    cursor: pointer;
+}
+
 .geoTitle{
     color: #1C1D28;
     font-family: Montserrat;
@@ -128,3 +135,61 @@
     justify-content: space-around;
 }
 
+
+@media(max-width:770px){
+    .bigTitle{
+        font-size: 140px;
+    }
+
+    .blockTitle{
+        font-size: 20px;
+    }
+
+    .blockText{
+        font-size: 15px;
+    }
+
+    .map{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media(max-width:440px){
+    .bigTitle{
+        font-size: 50px;
+    }
+
+    .blockContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textTitle{
+        font-size: 15px;
+    }
+
+    .text{
+        font-size: 13px;
+    }
+
+    .blockTitle{
+        font-size: 15px;
+    }
+
+    .blockText{
+        font-size: 13px;
+    }
+
+    .geoTitle{
+        font-size: 15px;
+    }
+
+    .geoNumber{
+        font-size: 15px;
+    }
+
+    .numderText{
+        font-size: 13px;
+    }
+}

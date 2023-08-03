@@ -6,6 +6,7 @@
     font-weight: 300;
     line-height: 145%;
     letter-spacing: 0.75px;
+    padding-left: 20px;
 }
 
 .main{
@@ -16,12 +17,16 @@
     font-weight: 500;
     line-height: 145%; 
     letter-spacing: 0.6px;
+    padding-left: 20px;
 }
 
-.buttom{
-    padding: 12px 25px;
-    background:white;
-    color:#5551F7;
-    border:1px solid #5551F7;
-    cursor: pointer;
+@media(max-width:770px){
+    .main{
+        font-size: 20px;
+    }
+
+    .title{
+        font-size: 10px;
+    }
 }
+
